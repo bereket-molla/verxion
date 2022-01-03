@@ -29,7 +29,8 @@ public class commit{
         else{
             parent = "";
         }
-
+        
+        //FIXME: ADD CONFIG FOR AUTHOR AND COMMITER
         currentHash = tree.createTree();
         commiter = "Bereket Molla";
         author = "Bereket Molla";
